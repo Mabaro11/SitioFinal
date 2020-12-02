@@ -56,12 +56,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .navbar-nav a:hover {
   color: rgb(255, 239, 176) !important;
 }
+.dropdown-menu {background-color: #fabd60 !important;} 
+
 .dropdown-menu a{
     background-color: #fabd60;
 }
 .dropdown-menu a:hover{
   background-color: #fabd60;
 }
+
 
 /*Hero*/
 #hero {
