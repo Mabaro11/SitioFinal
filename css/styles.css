@@ -298,9 +298,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #706f6f;
 }
 .video video {
-  max-width: 60%;
+  width: 100%;
 }
-}
+
 /*portfolio*/
 .portfolio {
   padding: 60px 0;
