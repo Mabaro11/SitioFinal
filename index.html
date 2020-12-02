@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Baroni Luthier</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/venobox.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900"
+    rel="stylesheet">
+  <link href="icofont/icofont.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--menu-->
+
+  <div class="container-fluid fixed-top menu">
+    <nav class="navbar navbar-expand-lg navbar-light container" style="background-color: #fabd60;">
+      <a class="navbar-brand logo" href="#"><img src="img/Logo Negro.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="#" id="menuInicio">INICIO</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              INSTRUMENTOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#" id="menuBajo">Bajo</a>
+              <a class="dropdown-item" href="#" id="menuGuitarra">Guitarra</a>
+              <a class="dropdown-item" href="#" id="menuUkelele">Ukelele</a>
+            </div>
+          </li>
+          <a class="nav-link" href="#" id="menuContacto">CONTACTO</a>
+          <a class="nav-link" href="#" id="menuArtista">ARTISTAS</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--Hero -->
+  <div id="containerMain">
+    <div class="container-fluid" id="hero">
+      <div class="hero-container">
+        <h1><img src="img/Logo Blanco.png" alt="" width="80%"></h1>
+        <h2 class="font-italic">Taller de Luthieria </h2>
+      </div>
+    </div>
+    <main id="main">
+      <!--Acerca de mi-->
+      <div id="about" class="about section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Acerca del Luthier</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="img/IMG-20200818-WA0007.jpg" class="img-fluid" alt="Imagen no disponible">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+              <p class="font-italic">
+                En la ciudad de San Justo, Santa Fe (Argentina) desde 2019, Mauricio Baroni trabaja en la construcción
+                de instrumentos musicales tanto de caja, sólidos y semi-huecos, además de trabajos de calibración. El
+                principal objetivo es el de un trabajo prolijo buscando la profesionalidad en los pequeños detalles.
+              </p> <br> <br>
+              <h5>"El que piensa que puede, puede. El que piensa que no puede no puede. Esa es una inexorable e
+                indiscutible ley."<br><strong>Pablo Picasso</strong></h5> <br>
+              <p class="font-italic">
+                Esta célebre frase refleja, la actitud que hay que tomar ante los nuevos proyectos.
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <!--Contacto-->
+  <div id="containerContact">
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>En caso de querer contactarse conmigo puede hacerlo por medio de las siguientes herramientas.
+            <br>
+             No tomo aprendices
+             </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="contact-about">
+              <h3 class="logo"><img src="img/Logo Negro.png" alt="Baroni"></h3>
+              <p>Mauricio Baroni. Construcción, reparación, y calibración de intrumentos de cuerda pulsada.</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/mauri.baroni.3/" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/mauribaroni/" class="instagram"><i class="icofont-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info">
+              <div>
+                <i class="icofont-google-map"></i>
+                <p>San Justo, Santa Fe<br>Argentina</p>
+              </div>
+              <div>
+                <i class="icofont-envelope"></i>
+                <p>maba11@outlook.com.ar</p>
+              </div>
+              <div>
+                <i class="icofont-phone"></i>
+                <p>3498 524969</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre"
+                  data-rule="minlen:4" data-msg="Por favor ingrese almenos 4 caracteres" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Tu E-mail"
+                  data-rule="email" data-msg="Por favor ingrese un E-mail válido" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujeto"
+                  data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres de sujeto" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Por favor escriba un mensaje" placeholder="Mensaje"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--Bajo-->
+  <div class="section section-bg" id="bajo">
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>SealBass</h2>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181058_004.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181058_004.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181058_004.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-web">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181133.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181133.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181133.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181206.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181206.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181206.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-card">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181246.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181246.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181246.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-web">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181302.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181302.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181302.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Sealbass/20201006_181745.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Sealbass/20201006_181745.jpg" data-gall="portfolioGallery" class="venobox">Bajo</a>
+                </h3>
+                <div>
+                  <a href="img/Sealbass/20201006_181745.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <!--Ukelele-->
+  <div class="section section-bg" id="ukelele">
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Ukelele</h2>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/IMG-20201128-WA0041.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/IMG-20201128-WA0041.jpg" data-gall="portfolioGallery"
+                    class="venobox">Ukelele</a></h3>
+                <div>
+                  <a href="img/Ukelele/IMG-20201128-WA0041.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-web">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/IMG-20201128-WA0042.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/IMG-20201128-WA0042.jpg" data-gall="portfolioGallery"
+                    class="venobox">Ukelele</a></h3>
+                <div>
+                  <a href="img/Ukelele/IMG-20201128-WA0042.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/IMG-20201128-WA0043.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/IMG-20201128-WA0043.jpg" data-gall="portfolioGallery"
+                    class="venobox">Ukelele</a></h3>
+                <div>
+                  <a href="img/Ukelele/IMG-20201128-WA0043.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-card">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/IMG-20201128-WA0044.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/IMG-20201128-WA0044.jpg" data-gall="portfolioGallery"
+                    class="venobox">Ukelele</a></h3>
+                <div>
+                  <a href="img/Ukelele/IMG-20201128-WA0044.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-web">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/IMG-20201128-WA0045.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/IMG-20201128-WA0045.jpg" data-gall="portfolioGallery"
+                    class="venobox">Ukelele</a></h3>
+                <div>
+                  <a href="img/Ukelele/IMG-20201128-WA0045.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/Ukelele/20200718_124340.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/Ukelele/20200718_124340.jpg" data-gall="portfolioGallery" class="venobox">Ukelele</a>
+                </h3>
+                <div>
+                  <a href="img/Ukelele/20200718_124340.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <!--Guitarra-->
+  <div class="section section-bg" id="guitarra">
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Electric Spanish 335</h2>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/335/20201117_170741.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/335/20201117_170741.jpg" data-gall="portfolioGallery" class="venobox">ES 335</a></h3>
+                <div>
+                  <a href="img/335/20201117_170741.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-web">
+            <div class="portfolio-item">
+              <img src="img/335/20201117_170757.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/335/20201117_170757.jpg" data-gall="portfolioGallery" class="venobox">ES 335</a></h3>
+                <div>
+                  <a href="img/335/20201117_170757.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/335/20201117_170804.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/335/20201117_170804.jpg" data-gall="portfolioGallery" class="venobox">ES 335</a></h3>
+                <div>
+                  <a href="img/335/20201117_170804.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/335//IMG-20201121-WA0026.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/335/IMG-20201121-WA0026.jpg" data-gall="portfolioGallery" class="venobox">ES 335</a>
+                </h3>
+                <div>
+                  <a href="img/335/IMG-20201121-WA0026.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="img/335/IMG-20201121-WA0028.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="img/335//IMG-20201121-WA0028.jpg" data-gall="portfolioGallery" class="venobox">ES 335</a>
+                </h3>
+                <div>
+                  <a href="img/335/IMG-20201121-WA0028.jpg" data-gall="portfolioGallery" class="venobox"><i
+                      class="icofont-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--Artista-->
+  <div class="section-bg" id="artista">
+    <section id="team" class="team">
+      <div class="container section-bg">
+
+        <div class="section-title">
+          <h2>Artistas</h2>
+          <p>Algunos artistas que confian en nosotros .</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="img/fede.jpg" alt="">
+              <h4>Federico Melero</h4>
+              <span>Bajista</span>
+              <p>
+                Bajista perteneciente a The monkeys crazy?.
+                <br>
+                <strong>Bajo SealBass</strong>
+              </p>
+              <div class="social">
+                
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <video src="img/VID-20201130-WA0007.mp4" controls>
+              Tu navegador no implementa el elemento <code>video</code>.
+            </video>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <!--Pie de Pagina-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Baroni</span></strong>. Todos los derechos reservados.
+      </div>
+      <div class="credits">
+        Diseñado por <strong>Mauricio Baroni</strong> con Bootstrap.
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/mauri.baroni.3/"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/mauribaroni/"><i class="icofont-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Scripts-->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/isotope.pkgd.js"></script>
+  <script src="js/venobox.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/mainjs.js"></script>
+</body>
+
+</html>
