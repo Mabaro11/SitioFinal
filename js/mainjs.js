@@ -6,6 +6,10 @@ $(window).scroll(function () {
   }
 });
 
+$(document).on(function(){
+  $(".dropdown-toggle").dropdown("toggle");
+});
+ 
 
 $(document).ready(
   function () {
@@ -99,3 +103,5 @@ function mostrarArtista() {
   });
 
 })(jQuery);
+
+
