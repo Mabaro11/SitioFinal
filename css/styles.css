@@ -1,4 +1,7 @@
 /*Generales*/
+.reset{
+  clear:both;
+}
 body{
   font-family: sans-serif;
 }

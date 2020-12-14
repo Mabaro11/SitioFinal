@@ -6,11 +6,6 @@ $(window).scroll(function () {
   }
 });
 
-$(document).on(function(){
-  $(".dropdown-toggle").dropdown("toggle");
-});
- 
-
 $(document).ready(
   function () {
     $("#menuInicio").show(mostrarMain);
