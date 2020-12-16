@@ -382,9 +382,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 4px;
 }
 
-.portfolio .portfolio-item .portfolio-info a i:hover {
-  color: #70b9b0;
-}
+
 
 .portfolio .portfolio-item:hover img {
   opacity: 0.4;

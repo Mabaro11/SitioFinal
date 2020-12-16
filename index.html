@@ -17,9 +17,8 @@
 </head>
 
 <body>
-  <!--menu-->
-
-  <div class="container-fluid fixed-top menu">
+  <!--Menu-->
+    <div class="container-fluid fixed-top menu">
     <nav class="navbar navbar-expand-lg navbar-light container" style="background-color: #fabd60;">
       <a class="navbar-brand logo" href="#"><img src="img/Logo Negro.png" alt=""></a>
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -48,26 +47,26 @@
     </nav>
   </div>
 
-  <!--Hero -->
   <div id="containerMain">
+    <!--Hero -->
     <div class="container-fluid" id="hero">
       <div class="hero-container">
         <h1><img src="img/Logo Blanco.png" alt="" width="80%"></h1>
         <h2 class="font-italic">Taller de Luthieria </h2>
       </div>
     </div>
+    <!--Acerca de mi-->
     <main id="main">
-      <!--Acerca de mi-->
       <div id="about" class="about section">
         <div class="container">
           <div class="section-title">
             <h2>Acerca del Luthier</h2>
           </div>
           <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2">
-              <img src="img/IMG-20200818-WA0007.jpg" class="img-fluid" alt="Imagen no disponible">
+            <div class="col-lg-6 order-2 order-lg-2">
+              <img src="img/Sealbass/IMG-20200818-WA0008.jpg" class="img-fluid" alt="Imagen no disponible">
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1">
               <p class="font-italic">
                 En la ciudad de San Justo, Santa Fe (Argentina) desde 2019, Mauricio Baroni trabaja en la construcción
                 de instrumentos musicales tanto de caja, sólidos y semi-huecos, además de trabajos de calibración. El
@@ -78,12 +77,11 @@
               <p class="font-italic">
                 Esta célebre frase refleja, la actitud que hay que tomar ante los nuevos proyectos.
               </p>
-
             </div>
           </div>
-
         </div>
       </div>
+    </main>
   </div>
   <!--Contacto-->
   <div id="containerContact">
@@ -126,7 +124,7 @@
           </div>
 
           <div class="col-lg-5 col-md-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="php/sendemail.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre"
                   data-rule="minlen:4" data-msg="Por favor ingrese almenos 4 caracteres" />
@@ -153,6 +151,9 @@
                 <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+              <div class="form-group">
+                <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="Enviar" />
+           </div> 
             </form>
           </div>
         </div>
@@ -171,7 +172,7 @@
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6 ">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181058_004.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -185,7 +186,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-web">
+          <div class="col-lg-4 col-md-6 ">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181133.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -199,7 +200,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181206.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -213,7 +214,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-card">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181246.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -227,7 +228,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-web">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181302.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -241,7 +242,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Sealbass/20201006_181745.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -261,8 +262,9 @@
 
       </div>
     </section>
-    <div class="reset"></div>
+    
   </div>
+  <div class="reset"></div>
   <!--Ukelele-->
   <div class="section section-bg" id="ukelele">
     <section id="portfolio" class="portfolio">
@@ -274,7 +276,7 @@
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/IMG-20201128-WA0041.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -288,7 +290,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-web">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/IMG-20201128-WA0042.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -302,7 +304,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/IMG-20201128-WA0043.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -316,7 +318,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-card">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/IMG-20201128-WA0044.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -330,7 +332,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-web">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/IMG-20201128-WA0045.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -344,7 +346,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/Ukelele/20200718_124340.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -360,9 +362,8 @@
         </div>
       </div>
     </section>
-    <div class="reset"></div>
   </div>
-
+  <div class="reset"></div>
   <!--Guitarra-->
   <div class="section section-bg" id="guitarra">
     <section id="portfolio" class="portfolio">
@@ -374,7 +375,7 @@
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/335/20201117_170741.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -387,7 +388,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-web">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/335/20201117_170757.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -400,7 +401,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/335/20201117_170804.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -413,7 +414,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/335//IMG-20201121-WA0026.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -427,7 +428,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
+          <div class="col-lg-4 col-md-6">
             <div class="portfolio-item">
               <img src="img/335/IMG-20201121-WA0028.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -444,9 +445,8 @@
         </div>
       </div>
     </section>
-    <div class="reset"></div>
   </div>
-
+  <div class="reset"></div>
   <!--Artista-->
   <div class="section-bg" id="artista">
     <section id="team" class="team">
@@ -489,7 +489,7 @@
     </section>
   </div>
   <!--Pie de Pagina-->
-  <footer id="footer">
+  <footer id="footer" >
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Baroni</span></strong>. Todos los derechos reservados.
@@ -502,7 +502,7 @@
         <a href="https://www.instagram.com/mauribaroni/"><i class="icofont-instagram"></i></a>
       </div>
       <div class="credits">
-        inspirada en <strong>Amoeba - BootstrapMade</strong>.
+        Inspirada en <strong>Amoeba - BootstrapMade</strong>.
       </div>
     </div>
   </footer>
