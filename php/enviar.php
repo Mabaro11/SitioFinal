@@ -8,12 +8,10 @@
       $email = $_POST['email'];
       $subject = $_POST['subject'];   
       $mensaje = $_POST['message'];
-      $para = 'mauriciobaroni11@gmail.com';
-
+      $para = 'maba11@outlook.com.ar';
       //Creamos cabecera.
       $headers = 'From' . " " . $email . "\r\n";
       $headers .= "Content-type: text/html; charset=utf-8";
-
       //Componemos cuerpo correo.
       $msjCorreo = "Nombre: " . $nombre;
       $msjCorreo .= "\r\n";
@@ -31,7 +29,6 @@
     } else {
          echo "<script language='javascript'>
             alert('fallado');
-         </script>";
-    }
+         </script>";}
   }
 ?>
